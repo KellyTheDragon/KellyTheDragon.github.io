@@ -105,3 +105,8 @@ a {
   border: 1px solid #d9d9d9;
   padding: 0 10px;
 }
+
+.textbox:focus {
+  outline: none;
+  border-color: #1da1f2;
+}
