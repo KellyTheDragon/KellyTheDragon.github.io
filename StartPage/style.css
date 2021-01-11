@@ -66,3 +66,42 @@ a {
 .list ul li:nth-child(2n) {
   background: #333;
 }
+
+.list h1 {
+  position: relative;
+  background: #1abc9c;
+  color: #eee;
+  margin: 0;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.orangeredtitle h1 {
+  background: orangered;
+}
+
+.greentitle h1 {
+  background: #47d15f;
+}
+
+.bluetitle h1 {
+  background: #1da1f2;
+}
+
+.redtitle h1 {
+  background: #cd201f;
+}
+
+.orangetitle h1 {
+  background: #ff9800;
+}
+
+.textbox {
+  background-color: #fff;
+  height: 38px;
+  width: 350px;
+  vertical-align: top;
+  border: 1px solid #d9d9d9;
+  padding: 0 10px;
+}
