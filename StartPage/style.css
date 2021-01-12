@@ -110,3 +110,44 @@ a {
   outline: none;
   border-color: #1da1f2;
 }
+
+@media only screen and (max-width: 45em) {
+  .list }
+  max-width: 95vw;
+}
+
+.textbox {
+  width: 90;
+}
+
+.list ul {
+  -webkit-transition: 800ms max-height ease-out;
+  transition: 800ms max-height ease-out;
+  overflow: hidden;
+  max-height: 0px;
+}
+
+.list:hover > ul, .list:hover ul li {
+  max-height: 800px;
+  display: block;
+}
+
+.list il li {
+  display: none;
+}
+
+.section.main {
+  margin-top: 0px;
+} }
+
+/* Google */
+.container {
+  text-align :center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.google {
+  margin: -80px auto -20px;
+  height: 150px;
+}
